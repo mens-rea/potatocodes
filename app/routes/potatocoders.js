@@ -8,7 +8,8 @@ export default Route.extend({
       {name: 'Mhariell Mosqueriola', img: ''},
       {name: 'John Dave Villaluz', img: ''},
       {name: 'Josh Caballero', img: ''},
-      {name: 'Alyzhia Agbayani', img: ''}
+      {name: 'Alyzhia Agbayani', img: ''},
+      {name: 'Kenneth Bastian', img: ''}
     ];
   }
 });

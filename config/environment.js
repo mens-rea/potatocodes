@@ -4,7 +4,7 @@ module.exports = function(environment) {
   let ENV = {
     contentSecurityPolicy: {
       'default-src': "'self'",
-      'script-src': "'self' *.my-domain-name.com",
+      'script-src': "'self' *.potatocodes.com",
       'font-src': "'self' fonts.googleapis.com fonts.gstatic.com",
       'connect-src': "'self' my-auth-provider.com",
       'img-src': "self",
@@ -54,7 +54,7 @@ module.exports = function(environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
-    ENV.rootURL = 'https://gallant-hypatia-61ba2c.netlify.com';
+    ENV.rootURL = 'https://potatocodes.com';
   }
 
   return ENV;

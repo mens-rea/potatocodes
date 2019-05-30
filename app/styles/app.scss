@@ -1,11 +1,15 @@
 @import "bootstrap";
 
-h2 {
+h2{
   font-size: 18px;
   color: #cfcfcf;
 }
 
-.navbar-toggle .icon-bar {
+img{
+  width: 100%;
+}
+
+.navbar-toggle .icon-bar{
   background-color: #2e2e2e;
 }
 
@@ -29,4 +33,14 @@ body{
 }
 .code-highlight{
   color: #f6ae42;
+}
+
+.card-container{
+  padding: 60px 0px;
+}
+.card{
+  margin-bottom: 30px;
+}
+.card-body{
+  border: 1px solid #f5f5f5;
 }

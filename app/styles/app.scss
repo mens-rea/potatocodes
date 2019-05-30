@@ -1,5 +1,10 @@
 @import "bootstrap";
 
+h2 {
+  font-size: 20px;
+  color: #cfcfcf;
+}
+
 .navbar-toggle .icon-bar {
   background-color: #2e2e2e;
 }
@@ -16,4 +21,8 @@ body{
 .slogan{
   margin-top: 30px;
   font-size: 18px;
+  line-height: 1.4em;
+}
+.slogan-highlight{
+  color: #f6ae42;
 }

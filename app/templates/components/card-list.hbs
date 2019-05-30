@@ -1,0 +1,12 @@
+{{yield}}
+
+<div class="card-container">
+  {{#each works as |work|}}
+    <div class="card col-md-4 col-sm-6">
+      <img class="card-img-top" src="{{work.img}}" alt="Card image cap">
+      <div class="card-body">
+        <h4 class="card-title">{{work.name}}</h4>
+      </div>
+    </div>
+  {{/each}}
+</div>

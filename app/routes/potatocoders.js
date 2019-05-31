@@ -10,6 +10,7 @@ export default Route.extend({
       {name: 'Josh Caballero', img: ''},
       {name: 'Alyzhia Agbayani', img: ''},
       {name: 'Kenneth Bastian', img: ''},
+      {name: 'Willam Montalban', img: ''},
       {name: 'Allen Esteves', img: ''},
       {name: 'Maine Ariza', img: ''},
       {name: 'Ervin Navales', img: ''},
